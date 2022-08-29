@@ -1,39 +1,47 @@
-**SCENARIO**
+SCENARIO
 
-You are a data analyst in a consulting firm specializing in the digital transformation of companies. 
+You are a Data Analyst consultant at Lapage, a large and highly reputable generalist online bookstore. You report directly to the Marketing department.
 
-Every year before March 1, companies with at least 50 employees must calculate and publish their gender equality index on their website. The firm already has more than 150 employees and is in full development, it is important for the firm to have a proactive policy to develop gender equality in their cabinet. With that they can improve their employer brand and more easily attract talent.
+Lapage was originally a physical bookstore with several points of sale. But given the success of some of its products and the enthusiasm of its customers, she decided two years ago to open an online sales site. 
 
-In this economic context, the recruitment of experienced consultants is becoming a real strategic issue.
+You intervene because the company wants to take stock after two years of practice, and to be able to analyses its strengths, weaknesses, customer behavior, etc.
 
-**THE DATA**
+THE DATA
 
 You have access to this data, extracted directly from the company's database to CSV files. Here are the files at your disposal:
 
-•	Table info_pro;
+•	customers;
 
-•	Table remuneration;
+•	products;
 
-•	Table Salaries.
+•	transactions.
 
-**SKILLS ASSESSED**
+SKILLS ASSESSED
 
-•	Prepare data for analysis in accordance with internal company standards
+•	Perform bivariate analysis to interpret data
 
-•	Collect data while respecting the GDPR
+•	Perform a statistical test
 
-•	Transfer data to a staging area
+•	Analyse time series
 
-**YOUR MISSIONS**
+YOUR MISSIONS
 
-*MISSION NO. 1*
+MISSION NO. 1
 
-•	automate the creation of a diagnostic report on professional equality between women and men:
+•	An analysis of the various sales indicators:
 
-      o	a workflow with the KNIME software which creates the diagnostic graphs;
+o	different indicators and graphs around turnover;
 
-      o	a csv file ready to be used in their future analyses via Tableau Software.
+o	the development over time and set up a moving average decomposition to assess the overall trend;
 
-*MISSION NO. 2*
+o	to zoom in on the references, to see the tops and flops, the breakdown by category, etc.;
 
-•	the data anonymisation, so the report complies with the GDPR.
+o	some information on the profiles of our clients, and also the distribution of turnover between them, for example via a Lorenz curve.
+
+MISSION NO. 2
+
+•	A more focused analysis on customers: the objective this time would be to understand the behaviour of our customers online, in order to then be able to compare with the knowledge acquired through our physical libraries:
+
+o	The relationship between a customer's gender and the categories of books purchased;
+
+o	And then the relationship between the age of customers and the total amount purchased, frequency of purchase, average basket size and categories of books purchased.
